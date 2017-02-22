@@ -8,7 +8,7 @@ Open the "specs.html" file in a browser to begin.
 
 You can find Jasmine documentation [here](http://jasmine.github.io/2.0/introduction.html). 
 
-You can push these files to PWS easily, with `cf push YOUR_APP_NAME -m 64M`.
+You can push these files to PWS easily, with `cf push YOUR_APP_NAME -m 64M --random-route`.
 
 You can sign up for a free trial PWS account at http://run.pivotal.io/
 
