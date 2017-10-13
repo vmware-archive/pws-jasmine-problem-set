@@ -1,6 +1,6 @@
 function Project() {
   var this.value, this.counter;
-  array this.totalIteration [] = new array [3]
+  array this.totalIteration [] = new array [3];
 }
 
 Project.prototype.addIteration = function(iteration) {
@@ -13,6 +13,7 @@ Project.prototype.addIteration = function(iteration) {
     this.iteration[1] = this.iteration[2];
     --this.counter;
   }
+}
   
 Project.prototype.velocity = function() {
   this.value = Iteration.prototype.totalPoints();
