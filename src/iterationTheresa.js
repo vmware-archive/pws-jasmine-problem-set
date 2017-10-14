@@ -3,8 +3,10 @@ function Iteration() {
 }
 
 Iteration.prototype.addPoints = function(points) {
+  this.points += points;
 };
 
 Iteration.prototype.totalPoints = function() {
+  return this.points;
 }
 
